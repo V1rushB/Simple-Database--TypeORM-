@@ -1,0 +1,36 @@
+{
+  "name": "gsgproj",
+  "version": "1.0.0",
+  "description": "��J\u0000u\u0000s\u0000t\u0000 \u0000a\u0000 \u0000r\u0000u\u0000s\u0000h\u0000e\u0000d\u0000 \u0000d\u0000a\u0000t\u0000a\u0000b\u0000a\u0000s\u0000e\u0000 \u0000t\u0000y\u0000p\u0000e\u0000o\u0000r\u0000m\u0000 \u0000h\u0000o\u0000m\u0000e\u0000w\u0000o\u0000r\u0000k\u0000 \u0000s\u0000o\u0000l\u0000\r\u0000 \u0000",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "build-tsc": "tsc -w",
+    "run-watch": "nodemon ./dist/main.js",
+    "dev": "concurrently \"npm:build-tsc\"  \"npm:run-watch\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/V1rushB/Simple-Database--TypeORM-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/V1rushB/Simple-Database--TypeORM-/issues"
+  },
+  "homepage": "https://github.com/V1rushB/Simple-Database--TypeORM-#readme",
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.5.7",
+    "concurrently": "^8.2.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.3.17"
+  }
+}
